@@ -206,3 +206,8 @@ footer .copyright {
     footer .copyright,
     footer ul li a { font-size: 13px; }
 }
+#logoimg{
+    width: 100px;
+    height: 100px;
+}
+
